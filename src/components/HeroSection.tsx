@@ -6,29 +6,29 @@ export function HeroSection() {
     <section className="container max-w-screen-xl py-20 text-center">
       <div className="flex justify-center mb-6">
         <Badge variant="outline" className="px-4 py-1 text-sm rounded-full border-neutral-700">
-          Публичная бета-версия 2.0
+          Версия 2.0 — Расширенная гидрологическая аналитика
         </Badge>
       </div>
       <h1 className="text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl mb-6">
-        Добро пожаловать
+        Умное управление
         <br />
-        в Nexora
+        польдерами
       </h1>
       <p className="mx-auto max-w-2xl text-muted-foreground mb-8">
-        Универсальная платформа продуктивности, которая помогает командам работать вместе, анализировать данные и эффективно масштабировать бизнес.
+        Автоматизированная система контроля гидрологического режима. Мониторинг уровня воды, управление насосами и затворами, прогноз паводков — в режиме реального времени.
       </p>
       <div className="flex flex-wrap justify-center gap-4">
         <Button size="lg" className="px-8">
-          Функции
+          Запросить демо
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Демо
+          Возможности
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Цены
+          Документация
         </Button>
         <Button size="lg" variant="outline" className="px-8">
-          Ресурсы
+          Кейсы
         </Button>
         <Button size="lg" variant="outline" className="px-8">
           Поддержка

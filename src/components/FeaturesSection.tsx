@@ -3,23 +3,23 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 export function FeaturesSection() {
   return (
     <section className="container max-w-screen-xl py-16">
-      <h2 className="text-3xl font-bold text-center mb-12">Ключевые преимущества</h2>
+      <h2 className="text-3xl font-bold text-center mb-12">Ключевые возможности</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <FeatureCard
           number={1}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Мониторинг в реальном времени"
+          description="Данные с датчиков уровня воды, расхода и давления обновляются каждые 1–15 минут. Автоматическая фильтрация и проверка достоверности показателей."
         />
         <FeatureCard
           number={2}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Интеллектуальное управление"
+          description="Система автоматически включает насосы и регулирует затворы в зависимости от уровня воды. Три режима: норма, предупреждение и аварийный — с мгновенными уведомлениями."
         />
         <FeatureCard
           number={3}
-          title="Опишите крутую функцию продукта"
-          description="Впечатлите, формируйте ожидания."
+          title="Прогноз паводков до 72 часов"
+          description="Интеграция с метеосервисами: прогноз осадков, ветра и приливов. Гидрологическое моделирование позволяет заранее сбросить лишнюю воду до начала шторма."
         />
       </div>
     </section>

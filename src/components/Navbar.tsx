@@ -29,23 +29,23 @@ export function Navbar() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span className="font-bold">Nexora</span>
+            <span className="font-bold">ПольдерКонтроль</span>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <a href="#" className="transition-colors hover:text-foreground/80">
-              Функции
+              Возможности
             </a>
             <a href="#" className="transition-colors hover:text-foreground/80">
-              Ресурсы
+              Документация
             </a>
             <a href="#" className="transition-colors hover:text-foreground/80">
               Цены
             </a>
             <a href="#" className="transition-colors hover:text-foreground/80">
-              Блог
+              Кейсы
             </a>
             <a href="#" className="transition-colors hover:text-foreground/80">
-              Доки
+              Поддержка
             </a>
           </nav>
         </div>
@@ -54,7 +54,7 @@ export function Navbar() {
             Войти
           </a>
           <Button variant="outline" className="ml-4">
-            Регистрация
+            Запросить демо
           </Button>
         </div>
       </div>
